@@ -60,10 +60,10 @@ spamAssassin.check(message)
 If you need to test this library on your local computer, while using a remote SpamAssassin instance, you can easily open a SSH tunnel to this instance:
 
 ```sh
-ssh -L 127.0.0.1:783:[remote_ip]:783 root@[server_hostname]
+ssh -L 127.0.0.1:783:[remote_spamd_ip]:783 root@[remote_ssh_hostname]
 ```
 
-_👉 Make sure to replace `[remote_ip]` and `[server_hostname]` with the IP address SpamAssassin is listening on, and your server hostname._
+_👉 Make sure to replace `[remote_spamd_ip]` and `[remote_ssh_hostname]` with the IP address SpamAssassin is listening on, and your server hostname._
 
 ## Available options
 
