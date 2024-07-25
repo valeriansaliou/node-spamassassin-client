@@ -1,6 +1,6 @@
 # node-spamassassin-client
 
-[![Test and Build](https://github.com/valeriansaliou/node-spamassassin-client/workflows/Test%20and%20Build/badge.svg?branch=master)](https://github.com/valeriansaliou/node-spamassassin-client/actions?query=workflow%3A%22Test+and+Build%22) [![Build and Release](https://github.com/valeriansaliou/node-spamassassin-client/workflows/Build%20and%20Release/badge.svg)](https://github.com/valeriansaliou/node-spamassassin-client/actions?query=workflow%3A%22Build+and+Release%22) [![NPM](https://img.shields.io/npm/v/spamassassin-client.svg)](https://www.npmjs.com/package/spamassassin-client) [![Downloads](https://img.shields.io/npm/dt/spamassassin-client.svg)](https://www.npmjs.com/package/spamassassin-client)
+[![Test and Build](https://github.com/valeriansaliou/node-spamassassin-client/workflows/Test%20and%20Build/badge.svg)](https://github.com/valeriansaliou/node-spamassassin-client/actions?query=workflow%3A%22Test+and+Build%22) [![Build and Release](https://github.com/valeriansaliou/node-spamassassin-client/workflows/Build%20and%20Release/badge.svg)](https://github.com/valeriansaliou/node-spamassassin-client/actions?query=workflow%3A%22Build+and+Release%22) [![NPM](https://img.shields.io/npm/v/spamassassin-client.svg)](https://www.npmjs.com/package/spamassassin-client) [![Downloads](https://img.shields.io/npm/dt/spamassassin-client.svg)](https://www.npmjs.com/package/spamassassin-client)
 
 **SpamAssassin client, that lets you check if an email is spam or ham.**
 
