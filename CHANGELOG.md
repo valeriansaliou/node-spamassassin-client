@@ -1,6 +1,12 @@
 Changelog
 =========
 
+## 1.0.5 (2024-07-25)
+
+### Bug Fixes
+
+* Attempt to fix a specific `Content-length` error from the server [[@valeriansaliou](https://github.com/valeriansaliou)].
+
 ## 1.0.4 (2024-07-25)
 
 ### Bug Fixes
