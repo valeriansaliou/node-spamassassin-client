@@ -97,4 +97,37 @@ describe("node-spamassassin-client", function() {
       );
     });
   });
+
+  describe("symbols method", function() {
+    it("should return a promise from symbols", function() {
+      var spamAssassin = new SpamAssassinClient();
+
+      assert(
+        (spamAssassin.symbols("<message here>") instanceof Promise),
+        "Symbols should be called"
+      );
+    });
+  });
+
+  describe("report method", function() {
+    it("should return a promise from report", function() {
+      var spamAssassin = new SpamAssassinClient();
+
+      assert(
+        (spamAssassin.report("<message here>") instanceof Promise),
+        "Report should be called"
+      );
+    });
+  });
+
+  describe("ping method", function() {
+    it("should return a promise from ping", function() {
+      var spamAssassin = new SpamAssassinClient();
+
+      assert(
+        (spamAssassin.ping() instanceof Promise),
+        "Ping should be called"
+      );
+    });
+  });
 });

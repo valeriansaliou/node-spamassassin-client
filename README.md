@@ -79,4 +79,9 @@ Those options can be passed when constructing a new `SpamAssassinClient` instanc
 
 Those methods can be called on a `SpamAssassinClient` instance:
 
- * `spamAssassin.check(message)`: checks an email for spam, returns `Promise<{ code, message, score, spam }>`;
+ * `spamAssassin.check(message)`: checks an email for spam, returns `Promise<{ score, spam }>`;
+ * `spamAssassin.symbols(message)`: checks an email for spam and get its symbols, returns `Promise<{ score, spam, symbols }>`;
+ * `spamAssassin.report(message)`: checks an email for spam and generate a report, returns `Promise<{ score, spam, report }>`;
+ * `spamAssassin.ping()`: checks for the SpamAssassin connection health, returns `Promise<{}>`;
+
+Note that all methods also return the `code` and `message` properties.
