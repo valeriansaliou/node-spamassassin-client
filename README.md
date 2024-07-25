@@ -23,6 +23,8 @@ Alternatively, you can run `npm install spamassassin-client --save`.
 #### 1. Create a client
 
 ```javascript
+var SpamAssassinClient = require("spamassassin-client").SpamAssassinClient;
+
 var spamAssassin = new SpamAssassinClient({
   host : "127.0.0.1"
 });
