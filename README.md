@@ -63,7 +63,7 @@ If you need to test this library on your local computer, while using a remote Sp
 ssh -L 127.0.0.1:783:[remote_spamd_ip]:783 root@[remote_ssh_hostname]
 ```
 
-_👉 Make sure to replace `[remote_spamd_ip]` and `[remote_ssh_hostname]` with the IP address SpamAssassin is listening on, and your server hostname._
+_👉 Make sure to replace `[remote_spamd_ip]` and `[remote_ssh_hostname]` with the IP address SpamAssassin is listening on, and your server hostname. You will need root permissions to bind to `783` on your local machine, so you might need to `sudo`._
 
 ## Available options
 
