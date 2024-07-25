@@ -1,7 +1,7 @@
 {
   "name": "spamassassin-client",
   "description": "SpamAssassin client, that lets you check if an email is spam or ham.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/valeriansaliou/node-spamassassin-client",
   "license": "MIT",
   "author": {
