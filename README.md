@@ -10,6 +10,19 @@ All functions in this library return Promise objects. TypeScript definitions are
 
 **🇸🇮 Crafted in Ljubljana, Slovenia.**
 
+## Who uses it?
+
+<table>
+<tr>
+<td align="center"><a href="https://crisp.chat/"><img src="https://valeriansaliou.github.io/node-spamassassin-client/images/crisp.png" width="64" /></a></td>
+</tr>
+<tr>
+<td align="center">Crisp</td>
+</tr>
+</table>
+
+_👋 You use spamassassin-client and you want to be listed there? [Contact me](https://valeriansaliou.name/)._
+
 ## How to install?
 
 Include `spamassassin-client` in your `package.json` dependencies.
