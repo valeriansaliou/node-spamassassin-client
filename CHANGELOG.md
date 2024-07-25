@@ -1,6 +1,14 @@
 Changelog
 =========
 
+## 1.1.0 (2024-07-25)
+
+### New Features
+
+* Add support for the `SYMBOLS` command [[@valeriansaliou](https://github.com/valeriansaliou)].
+* Add support for the `REPORT` command [[@valeriansaliou](https://github.com/valeriansaliou)].
+* Add support for the `PING` command [[@valeriansaliou](https://github.com/valeriansaliou)].
+
 ## 1.0.6 (2024-07-25)
 
 ### Changes
