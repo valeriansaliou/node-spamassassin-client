@@ -1,6 +1,12 @@
 Changelog
 =========
 
+## 1.0.6 (2024-07-25)
+
+### Changes
+
+* Add library users to `README.md` [[@valeriansaliou](https://github.com/valeriansaliou)].
+
 ## 1.0.5 (2024-07-25)
 
 ### Bug Fixes
