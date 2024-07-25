@@ -1,6 +1,12 @@
 Changelog
 =========
 
+## 1.0.2 (2024-07-25)
+
+### Bug Fixes
+
+* Fix `undefined` reference to `this.__linesIntoCheckResult()` [[@valeriansaliou](https://github.com/valeriansaliou)].
+
 ## 1.0.1 (2024-07-25)
 
 ### Bug Fixes
