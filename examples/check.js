@@ -15,6 +15,7 @@ var SpamAssassinClient = require("../").SpamAssassinClient;
 // Create the SpamAssassin client
 var spamAssassin = new SpamAssassinClient({
   host    : "127.0.0.1",
+  port    : 783,
   timeout : 3
 });
 
