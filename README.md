@@ -15,9 +15,11 @@ All functions in this library return Promise objects. TypeScript definitions are
 <table>
 <tr>
 <td align="center"><a href="https://crisp.chat/"><img src="https://valeriansaliou.github.io/node-spamassassin-client/images/crisp.png" width="64" /></a></td>
+<td align="center"><a href="https://yournotify.com/"><img src="https://valeriansaliou.github.io/node-spamassassin-client/images/yournotify.png" width="64" /></a></td>
 </tr>
 <tr>
 <td align="center">Crisp</td>
+<td align="center">Yournotify</td>
 </tr>
 </table>
 
