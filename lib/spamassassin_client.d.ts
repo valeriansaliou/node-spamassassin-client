@@ -28,9 +28,9 @@ export declare interface ReportResult extends CheckResult {
 
 export declare class SpamAssassinClient {
   constructor(options: Options);
-  check(message: string): Promise<CheckResult>;
-  symbols(message: string): Promise<SymbolsResult>;
-  report(message: string): Promise<ReportResult>;
+  check(message: string | Buffer): Promise<CheckResult>;
+  symbols(message: string | Buffer): Promise<SymbolsResult>;
+  report(message: string | Buffer): Promise<ReportResult>;
   ping(): Promise<GenericResult>;
 }
 

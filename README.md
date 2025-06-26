@@ -86,4 +86,4 @@ Those methods can be called on a `SpamAssassinClient` instance:
  * `spamAssassin.report(message)`: checks an email for spam and generate a report, returns `Promise<{ score, spam, report }>`;
  * `spamAssassin.ping()`: checks for the SpamAssassin connection health, returns `Promise<{}>`;
 
-Note that all methods also return the `code` and `message` properties.
+Note that all methods also return the `code` and `message` properties. Also, it is preferred to pass a `Buffer` type as the input value for the `message` parameter, although a `string` also works.
