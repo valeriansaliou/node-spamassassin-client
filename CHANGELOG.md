@@ -1,6 +1,12 @@
 Changelog
 =========
 
+## 1.2.0 (2025-06-26)
+
+### New Features
+
+* Accept `Buffer`-typed `message` input for all methods [[@valeriansaliou](https://github.com/valeriansaliou)].
+
 ## 1.1.0 (2024-07-25)
 
 ### New Features
