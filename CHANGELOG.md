@@ -1,6 +1,12 @@
 Changelog
 =========
 
+## 1.3.0 (2025-06-26)
+
+### Breaking Changes
+
+* ⚠️ Drop support for NodeJS below version `10` (dropped versions `6` and `8`) [[@valeriansaliou](https://github.com/valeriansaliou)].
+
 ## 1.2.0 (2025-06-26)
 
 ### New Features
